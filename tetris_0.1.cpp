@@ -81,7 +81,7 @@ void FillField(char** field, int N, int M)
 	{
 		for (int j = 0; j < M; j++)
 		{
-			field[i][j] = '·';
+			field[i][j] = 'Â·';
 		}
 	}
 }
