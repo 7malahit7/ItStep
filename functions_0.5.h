@@ -296,7 +296,7 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 	{
 		WASDE = _getch();
 
-		if (WASDE == 'w' && I1 < 2 && swap == 1 || WASDE == 'W' && I1 < 2 && swap == 1 || WASDE == 'ö' && I1 < 2 && swap == 1 || WASDE == 'Ö' && I1 < 2 && swap == 1)
+		if (WASDE == 'w' && I1 < 2 && swap == 1 || WASDE == 'W' && I1 < 2 && swap == 1 || WASDE == 'Ã¶' && I1 < 2 && swap == 1 || WASDE == 'Ã–' && I1 < 2 && swap == 1)
 		{
 			field[I1][J1] = '*';
 			field[I2][J2] = '*';
@@ -312,7 +312,7 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 			--swap;
 		}
 
-		if (WASDE == 'a' || WASDE == 'A' || WASDE == 'ô' || WASDE == 'Ô')
+		if (WASDE == 'a' || WASDE == 'A' || WASDE == 'Ã´' || WASDE == 'Ã”')
 		{
 			bool doleft{ true };
 			if (field[I1][J1 - 1] == '@' && J1 - 1 != J2 && J1 - 1 != J3 && J1 - 1 != J4 || field[I2][J2 - 1] == '@' && J2 - 1 != I1 && J2 - 1 != J3 && J2 - 1 != J4 || field[I3][J3 - 1] == '@' && J3 - 1 != J1 && J3 - 1 != J2 && J3 - 1 != J4 || field[I4][J4 - 1] == '@' && J4 - 1 != J1 && J4 - 1 != J2 && J4 - 1 != J3 || J1 == 0 || J2 == 0 || J3 == 0 || J4 == 0) doleft = false;
@@ -322,12 +322,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 			}
 		}
 
-		if (WASDE == 's' || WASDE == 'S' || WASDE == 'û' || WASDE == 'Û')
+		if (WASDE == 's' || WASDE == 'S' || WASDE == 'Ã»' || WASDE == 'Ã›')
 		{
 			slp = 99;
 		}
 
-		if (WASDE == 'd' || WASDE == 'D' || WASDE == 'â' || WASDE == 'Â')
+		if (WASDE == 'd' || WASDE == 'D' || WASDE == 'Ã¢' || WASDE == 'Ã‚')
 		{
 			bool doright{ true };
 			if (field[I1][J1 + 1] == '@' && J1 + 1 != J2 && J1 + 1 != J3 && J1 + 1 != J4 || field[I2][J2 + 1] == '@' && J2 + 1 != I1 && J2 + 1 != J3 && J2 + 1 != J4 || field[I3][J3 + 1] == '@' && J3 + 1 != J1 && J3 + 1 != J2 && J3 + 1 != J4 || field[I4][J4 + 1] == '@' && J4 + 1 != J1 && J4 + 1 != J2 && J4 + 1 != J3 || J1 == 9 || J2 == 9 || J3 == 9 || J4 == 9) doright = false;
@@ -337,7 +337,7 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 			}
 		}
 
-		if (WASDE == 'e' || WASDE == 'E' || WASDE == 'ó' || WASDE == 'Ó')
+		if (WASDE == 'e' || WASDE == 'E' || WASDE == 'Ã³' || WASDE == 'Ã“')
 		{
 			switch (Rand)
 			{
