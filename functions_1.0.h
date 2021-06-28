@@ -26,9 +26,9 @@ void MainMenu()
 	cout << "\t\t\t\t\t\t\t|                                                                                             |\n"; Sleep(200);
 	cout << "\t\t\t\t\t\t\t|                                                                                             |\n"; Sleep(200);
 	cout << "\t\t\t\t\t\t\t|_____________________________________________________________________________________________|\n\n\n\n\n\n\n";
-	cout << "\t\t\t\t\t\t\t\t\t     Í à æ ì è ò å   E N T E R ,   ÷ ò î á û   í à ÷ à ò ü .";
-	cout << "\n\n\n\n\t\t\t\t\t\t\t     Í à æ ì è ò å   Ï Ğ Î Á Å Ë ,   ÷ ò î á û   ï î ñ ì î ò ğ å ò ü   ó ï ğ à â ë å í è å .";
-	cout << "\n\n\n\n\t\t\t\t\t\t\t\t\t      Í à æ ì è ò å   E S C ,   ÷ ò î á û   â û é ò è .\n";
+	cout << "\t\t\t\t\t\t\t\t\t     Ã Ã  Ã¦ Ã¬ Ã¨ Ã² Ã¥   E N T E R ,   Ã· Ã² Ã® Ã¡ Ã»   Ã­ Ã  Ã· Ã  Ã² Ã¼ .";
+	cout << "\n\n\n\n\t\t\t\t\t\t\t     Ã Ã  Ã¦ Ã¬ Ã¨ Ã² Ã¥   Ã Ã Ã Ã Ã… Ã‹ ,   Ã· Ã² Ã® Ã¡ Ã»   Ã¯ Ã® Ã± Ã¬ Ã® Ã² Ã° Ã¥ Ã² Ã¼   Ã³ Ã¯ Ã° Ã  Ã¢ Ã« Ã¥ Ã­ Ã¨ Ã¥ .";
+	cout << "\n\n\n\n\t\t\t\t\t\t\t\t\t      Ã Ã  Ã¦ Ã¬ Ã¨ Ã² Ã¥   E S C ,   Ã· Ã² Ã® Ã¡ Ã»   Ã¢ Ã» Ã© Ã² Ã¨ .\n";
 }
 
 void Menu()
@@ -50,9 +50,9 @@ void Menu()
 		{
 			system("cls");
 			Sleep(100);
-			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\tÕ Î Ò È Ò Å   Â Û É Ò È   È Ç   È Ã Ğ Û ?\n\n\n\n\n";
+			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\tÃ• Ã Ã’ Ãˆ Ã’ Ã…   Ã‚ Ã› Ã‰ Ã’ Ãˆ   Ãˆ Ã‡   Ãˆ Ãƒ Ã Ã› ?\n\n\n\n\n";
 			Sleep(100);
-			cout << "\t\t\t\t\t\t    Å ñ ë è   Ä À ,  í à æ ì è ò å   E N T E R\t\tÅ ñ ë è   Í Å Ò ,  í à æ ì è ò å   E S C\n";
+			cout << "\t\t\t\t\t\t    Ã… Ã± Ã« Ã¨   Ã„ Ã€ ,  Ã­ Ã  Ã¦ Ã¬ Ã¨ Ã² Ã¥   E N T E R\t\tÃ… Ã± Ã« Ã¨   Ã Ã… Ã’ ,  Ã­ Ã  Ã¦ Ã¬ Ã¨ Ã² Ã¥   E S C\n";
 
 			char choice = ' ';
 			while (choice != 13 && choice != 27)
@@ -68,7 +68,7 @@ void Menu()
 			if (choice == 13)
 			{
 				system("cls");
-				cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\tÄ Î   Í Î Â Î É   Â Ñ Ò Ğ Å × È   Â   È Ã Ğ Å !\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+				cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\tÃ„ Ã   Ã Ã Ã‚ Ã Ã‰   Ã‚ Ã‘ Ã’ Ã Ã… Ã— Ãˆ   Ã‚   Ãˆ Ãƒ Ã Ã… !\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
 				exit(0);
 			}
 		}
@@ -76,15 +76,15 @@ void Menu()
 		if (Enter == 32)
 		{
 			system("cls");
-			cout << "\n\n\n\n\n\n\t\t\t\t\t\t      Ó          Ï          Ğ          À          Â          Ë          Å          Í          È          Å";
-			cout << "\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\tW ( Ö ) — Ñìåíà òåêóùåé íà äğóãóş ñëó÷àéíóş ôèãóğó\n\t\t\t\t\t\t\t\t\t\t*[ ğàáîòàåò â ïåğâûå ñåêóíäû ïîÿâëåíèÿ ôèãóğû ]\n\n\n\n\n\n"; Sleep(200);
-			cout << "\t\t\t\t\t\t\t\t\tA ( Ô ) — Äâèæåíèå íàëåâî\n\n\n\n\n\n"; Sleep(200);
-			cout << "\t\t\t\t\t\t\t\t\tS ( Û ) — Äâèæåíèå âíèç\n\n\n\n\n\n"; Sleep(200);
-			cout << "\t\t\t\t\t\t\t\t\tD ( Â ) — Äâèæåíèå íàïğàâî\n\n\n\n\n\n"; Sleep(200);
-			cout << "\t\t\t\t\t\t\t\t\tE ( Ó ) — Ïåğåâîğîò ôèãóğû\n\n\n\n\n\n"; Sleep(200);
-			cout << "\t\t\t\t\t\t\t\t\tESC — Ïàóçà (âûõîä èç èãğû)\n\n\n\n\n\n\n\n\n"; Sleep(200);
+			cout << "\n\n\n\n\n\n\t\t\t\t\t\t      Ã“          Ã          Ã          Ã€          Ã‚          Ã‹          Ã…          Ã          Ãˆ          Ã…";
+			cout << "\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\tW ( Ã– ) â€” Ã‘Ã¬Ã¥Ã­Ã  Ã²Ã¥ÃªÃ³Ã¹Ã¥Ã© Ã­Ã  Ã¤Ã°Ã³Ã£Ã³Ã¾ Ã±Ã«Ã³Ã·Ã Ã©Ã­Ã³Ã¾ Ã´Ã¨Ã£Ã³Ã°Ã³\n\t\t\t\t\t\t\t\t\t\t*[ Ã°Ã Ã¡Ã®Ã²Ã Ã¥Ã² Ã¢ Ã¯Ã¥Ã°Ã¢Ã»Ã¥ Ã±Ã¥ÃªÃ³Ã­Ã¤Ã» Ã¯Ã®Ã¿Ã¢Ã«Ã¥Ã­Ã¨Ã¿ Ã´Ã¨Ã£Ã³Ã°Ã» ]\n\n\n\n\n\n"; Sleep(200);
+			cout << "\t\t\t\t\t\t\t\t\tA ( Ã” ) â€” Ã„Ã¢Ã¨Ã¦Ã¥Ã­Ã¨Ã¥ Ã­Ã Ã«Ã¥Ã¢Ã®\n\n\n\n\n\n"; Sleep(200);
+			cout << "\t\t\t\t\t\t\t\t\tS ( Ã› ) â€” Ã„Ã¢Ã¨Ã¦Ã¥Ã­Ã¨Ã¥ Ã¢Ã­Ã¨Ã§\n\n\n\n\n\n"; Sleep(200);
+			cout << "\t\t\t\t\t\t\t\t\tD ( Ã‚ ) â€” Ã„Ã¢Ã¨Ã¦Ã¥Ã­Ã¨Ã¥ Ã­Ã Ã¯Ã°Ã Ã¢Ã®\n\n\n\n\n\n"; Sleep(200);
+			cout << "\t\t\t\t\t\t\t\t\tE ( Ã“ ) â€” ÃÃ¥Ã°Ã¥Ã¢Ã®Ã°Ã®Ã² Ã´Ã¨Ã£Ã³Ã°Ã»\n\n\n\n\n\n"; Sleep(200);
+			cout << "\t\t\t\t\t\t\t\t\tESC â€” ÃÃ Ã³Ã§Ã  (Ã¢Ã»ÃµÃ®Ã¤ Ã¨Ã§ Ã¨Ã£Ã°Ã»)\n\n\n\n\n\n\n\n\n"; Sleep(200);
 
-			cout << "\t\t\t\t\t\t\t\tÍ à æ ì è ò å   Ï Ğ Î Á Å Ë ,   ÷ ò î á û   â å ğ í ó ò ü ñ ÿ   â   ì å í ş\n";
+			cout << "\t\t\t\t\t\t\t\tÃ Ã  Ã¦ Ã¬ Ã¨ Ã² Ã¥   Ã Ã Ã Ã Ã… Ã‹ ,   Ã· Ã² Ã® Ã¡ Ã»   Ã¢ Ã¥ Ã° Ã­ Ã³ Ã² Ã¼ Ã± Ã¿   Ã¢   Ã¬ Ã¥ Ã­ Ã¾\n";
 
 			char Space = '.';
 			while (Space != 32)
@@ -103,13 +103,13 @@ void GameOver(int level, int points, int BurnedStrings)
 	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t    G  A  M  E     O  V  E  R  !\n\n\n\n\n\n\n\n\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t_________________________________________________\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t|                       |                       |\n";
-	cout << "\t\t\t\t\t\t\t\t\t\t|        Óğîâåíü        |                       |\n";
+	cout << "\t\t\t\t\t\t\t\t\t\t|        Ã“Ã°Ã®Ã¢Ã¥Ã­Ã¼        |                       |\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t|_______________________|_______________________|\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t|                       |                       |\n";
-	cout << "\t\t\t\t\t\t\t\t\t\t|         Áàëëû         |                       |\n";
+	cout << "\t\t\t\t\t\t\t\t\t\t|         ÃÃ Ã«Ã«Ã»         |                       |\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t|_______________________|_______________________|\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t|                       |                       |\n";
-	cout << "\t\t\t\t\t\t\t\t\t\t|     Ñîææåíî ëèíèé     |                       |\n";
+	cout << "\t\t\t\t\t\t\t\t\t\t|     Ã‘Ã®Ã¦Ã¦Ã¥Ã­Ã® Ã«Ã¨Ã­Ã¨Ã©     |                       |\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t|_______________________|_______________________|";
 
 	HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -134,7 +134,7 @@ void GameOver(int level, int points, int BurnedStrings)
 	SetConsoleCursorPosition(h, cursor);
 	cout << BurnedStrings;
 
-	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t  Í à æ ì è ò å   E N T E R ,   ÷ ò î á û   â å ğ í ó ò ü ñ ÿ   â   ì å í ş .\n";
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t  Ã Ã  Ã¦ Ã¬ Ã¨ Ã² Ã¥   E N T E R ,   Ã· Ã² Ã® Ã¡ Ã»   Ã¢ Ã¥ Ã° Ã­ Ã³ Ã² Ã¼ Ã± Ã¿   Ã¢   Ã¬ Ã¥ Ã­ Ã¾ .\n";
 
 	char Continue = ' ';
 	while (Continue != 13)
@@ -163,7 +163,7 @@ void Fill(char** field, int** ColoursData)
 	{
 		for (int j = 0; j < 10; j++)
 		{
-			field[i][j] = '·';
+			field[i][j] = 'Â·';
 		}
 	}
 
@@ -178,7 +178,7 @@ void Fill(char** field, int** ColoursData)
 
 void Print(char** field, int** ColoursData, int level, int points)
 {
-	cout << "\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tÓ Ğ Î Â Å Í Ü  " << level << "\tÎ × Ê È  " << points;
+	cout << "\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tÃ“ Ã Ã Ã‚ Ã… Ã Ãœ  " << level << "\tÃ Ã— ÃŠ Ãˆ  " << points;
 	HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
 	cout << "\n\n\n\n\t\t\t\t\t\t\t\t\t\t   +-------------------------------------------+\n\n";
 	for (int i = 0; i < 20; i++)
@@ -475,10 +475,10 @@ void Colour(int** ColoursData, int Rand, int& I1, int& J1, int& I2, int& J2, int
 
 int Left(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, int& I4, int& J4, int Rand, int** ColoursData, int level, int points)
 {
-	field[I1][J1] = '·';
-	field[I2][J2] = '·';
-	field[I3][J3] = '·';
-	field[I4][J4] = '·';
+	field[I1][J1] = 'Â·';
+	field[I2][J2] = 'Â·';
+	field[I3][J3] = 'Â·';
+	field[I4][J4] = 'Â·';
 
 	ColoursData[I1][J1] = 1;
 	ColoursData[I2][J2] = 1;
@@ -502,10 +502,10 @@ int Left(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, int
 
 int Down(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, int& I4, int& J4, int Rand, int** ColoursData, int level, int points)
 {
-	field[I1][J1] = '·';
-	field[I2][J2] = '·';
-	field[I3][J3] = '·';
-	field[I4][J4] = '·';
+	field[I1][J1] = 'Â·';
+	field[I2][J2] = 'Â·';
+	field[I3][J3] = 'Â·';
+	field[I4][J4] = 'Â·';
 
 	ColoursData[I1][J1] = 1;
 	ColoursData[I2][J2] = 1;
@@ -529,10 +529,10 @@ int Down(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, int
 
 int Right(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, int& I4, int& J4, int Rand, int** ColoursData, int level, int points)
 {
-	field[I1][J1] = '·';
-	field[I2][J2] = '·';
-	field[I3][J3] = '·';
-	field[I4][J4] = '·';
+	field[I1][J1] = 'Â·';
+	field[I2][J2] = 'Â·';
+	field[I3][J3] = 'Â·';
+	field[I4][J4] = 'Â·';
 
 	ColoursData[I1][J1] = 1;
 	ColoursData[I2][J2] = 1;
@@ -852,11 +852,11 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 				system("cls");
 				system("color B4");
 				Sleep(100);
-				cout << "\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\tÏ À Ó Ç À\n\n\n\n";
+				cout << "\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\tÃ Ã€ Ã“ Ã‡ Ã€\n\n\n\n";
 				Sleep(100);
-				cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\tÕ Î Ò È Ò Å   Â Û É Ò È   È Ç   È Ã Ğ Û ?\n\n\n\n";
+				cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\tÃ• Ã Ã’ Ãˆ Ã’ Ã…   Ã‚ Ã› Ã‰ Ã’ Ãˆ   Ãˆ Ã‡   Ãˆ Ãƒ Ã Ã› ?\n\n\n\n";
 				Sleep(100);
-				cout << "\t\t\t\t\t\t    Å ñ ë è   Ä À ,  í à æ ì è ò å   E N T E R\t\tÅ ñ ë è   Í Å Ò ,  í à æ ì è ò å   E S C\n";
+				cout << "\t\t\t\t\t\t    Ã… Ã± Ã« Ã¨   Ã„ Ã€ ,  Ã­ Ã  Ã¦ Ã¬ Ã¨ Ã² Ã¥   E N T E R\t\tÃ… Ã± Ã« Ã¨   Ã Ã… Ã’ ,  Ã­ Ã  Ã¦ Ã¬ Ã¨ Ã² Ã¥   E S C\n";
 
 				char choice = ' ';
 				while (choice != 13 && choice != 27)
@@ -879,12 +879,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 				}
 			}
 
-			if (WASDE == 'w' && I1 < 4 && swap == 1 || WASDE == 'W' && I1 < 4 && swap == 1 || WASDE == 'ö' && I1 < 4 && swap == 1 || WASDE == 'Ö' && I1 < 4 && swap == 1 || WASDE == 'w' && I2 < 4 && swap == 1 || WASDE == 'W' && I2 < 4 && swap == 1 || WASDE == 'ö' && I2 < 4 && swap == 1 || WASDE == 'Ö' && I2 < 4 && swap == 1 || WASDE == 'w' && I3 < 4 && swap == 1 || WASDE == 'W' && I3 < 4 && swap == 1 || WASDE == 'ö' && I3 < 4 && swap == 1 || WASDE == 'Ö' && I3 < 4 && swap == 1 || WASDE == 'w' && I4 < 4 && swap == 1 || WASDE == 'W' && I4 < 4 && swap == 1 || WASDE == 'ö' && I4 < 4 && swap == 1 || WASDE == 'Ö' && I4 < 4 && swap == 1)
+			if (WASDE == 'w' && I1 < 4 && swap == 1 || WASDE == 'W' && I1 < 4 && swap == 1 || WASDE == 'Ã¶' && I1 < 4 && swap == 1 || WASDE == 'Ã–' && I1 < 4 && swap == 1 || WASDE == 'w' && I2 < 4 && swap == 1 || WASDE == 'W' && I2 < 4 && swap == 1 || WASDE == 'Ã¶' && I2 < 4 && swap == 1 || WASDE == 'Ã–' && I2 < 4 && swap == 1 || WASDE == 'w' && I3 < 4 && swap == 1 || WASDE == 'W' && I3 < 4 && swap == 1 || WASDE == 'Ã¶' && I3 < 4 && swap == 1 || WASDE == 'Ã–' && I3 < 4 && swap == 1 || WASDE == 'w' && I4 < 4 && swap == 1 || WASDE == 'W' && I4 < 4 && swap == 1 || WASDE == 'Ã¶' && I4 < 4 && swap == 1 || WASDE == 'Ã–' && I4 < 4 && swap == 1)
 			{
-				field[I1][J1] = '·';
-				field[I2][J2] = '·';
-				field[I3][J3] = '·';
-				field[I4][J4] = '·';
+				field[I1][J1] = 'Â·';
+				field[I2][J2] = 'Â·';
+				field[I3][J3] = 'Â·';
+				field[I4][J4] = 'Â·';
 
 				ColoursData[I1][J1] = 1;
 				ColoursData[I2][J2] = 1;
@@ -901,7 +901,7 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 				--swap;
 			}
 
-			if (WASDE == 'a' || WASDE == 'A' || WASDE == 'ô' || WASDE == 'Ô')
+			if (WASDE == 'a' || WASDE == 'A' || WASDE == 'Ã´' || WASDE == 'Ã”')
 			{
 				bool BREAK{ false };
 				CheckLeft(field, I1, J1, I2, J2, I3, J3, I4, J4, Rand, pos, BREAK);
@@ -911,12 +911,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 				}
 			}
 
-			if (WASDE == 's' || WASDE == 'S' || WASDE == 'û' || WASDE == 'Û')
+			if (WASDE == 's' || WASDE == 'S' || WASDE == 'Ã»' || WASDE == 'Ã›')
 			{
 				NoSleep = true;
 			}
 
-			if (WASDE == 'd' || WASDE == 'D' || WASDE == 'â' || WASDE == 'Â')
+			if (WASDE == 'd' || WASDE == 'D' || WASDE == 'Ã¢' || WASDE == 'Ã‚')
 			{
 				bool BREAK{ false };
 				CheckRight(field, I1, J1, I2, J2, I3, J3, I4, J4, Rand, pos, BREAK);
@@ -926,7 +926,7 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 				}
 			}
 
-			if (WASDE == 'e' || WASDE == 'E' || WASDE == 'ó' || WASDE == 'Ó')
+			if (WASDE == 'e' || WASDE == 'E' || WASDE == 'Ã³' || WASDE == 'Ã“')
 			{
 				switch (Rand)
 				{
@@ -938,12 +938,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 					{
 					case 1:
 					{
-						if (field[I2 + 2][J2 - 1] == '·' && field[I3 - 1][J3] == '·')
+						if (field[I2 + 2][J2 - 1] == 'Â·' && field[I3 - 1][J3] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -974,12 +974,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 
 					case 2:
 					{
-						if (field[I1 - 1][J1] == '·' && field[I2 - 2][J2 + 1] == '·')
+						if (field[I1 - 1][J1] == 'Â·' && field[I2 - 2][J2 + 1] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1019,12 +1019,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 					{
 					case 1:
 					{
-						if (field[I3][J3 - 1] == '·' && field[I4 + 1][J4 - 2] == '·')
+						if (field[I3][J3 - 1] == 'Â·' && field[I4 + 1][J4 - 2] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1055,12 +1055,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 
 					case 2:
 					{
-						if (field[I1][J1 - 1] == '·' && field[I4 - 1][J4 + 2] == '·')
+						if (field[I1][J1 - 1] == 'Â·' && field[I4 - 1][J4 + 2] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1100,12 +1100,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 					{
 					case 1:
 					{
-						if (field[I3 + 2][J3 - 1] == '·' && field[I4][J4 - 1] == '·')
+						if (field[I3 + 2][J3 - 1] == 'Â·' && field[I4][J4 - 1] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1136,12 +1136,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 
 					case 2:
 					{
-						if (field[I1 + 1][J1 + 1] == '·')
+						if (field[I1 + 1][J1 + 1] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1173,12 +1173,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 
 					case 3:
 					{
-						if (field[I1 + 1][J1 - 1] == '·')
+						if (field[I1 + 1][J1 - 1] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1210,12 +1210,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 
 					case 4:
 					{
-						if (field[I1 - 2][J1 - 1] == '·' && field[I3][J3 + 1] == '·')
+						if (field[I1 - 2][J1 - 1] == 'Â·' && field[I3][J3 + 1] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1255,12 +1255,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 					{
 					case 1:
 					{
-						if (field[I1 + 1][J1 + 1] == '·' && field[I3 - 1][J3 - 1] == '·' && field[I4][J4 - 2] == '·')
+						if (field[I1 + 1][J1 + 1] == 'Â·' && field[I3 - 1][J3 - 1] == 'Â·' && field[I4][J4 - 2] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1291,12 +1291,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 
 					case 2:
 					{
-						if (field[I1 + 1][J1 - 1] == '·' && field[I3 - 1][J3 + 1] == '·' && field[I4 - 2][J4] == '·')
+						if (field[I1 + 1][J1 - 1] == 'Â·' && field[I3 - 1][J3 + 1] == 'Â·' && field[I4 - 2][J4] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1327,12 +1327,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 
 					case 3:
 					{
-						if (field[I1 - 1][J1 - 1] == '·' && field[I3 + 1][J3 + 1] == '·' && field[I4][J4 + 2] == '·')
+						if (field[I1 - 1][J1 - 1] == 'Â·' && field[I3 + 1][J3 + 1] == 'Â·' && field[I4][J4 + 2] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1363,12 +1363,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 
 					case 4:
 					{
-						if (field[I1 - 1][J1 + 1] == '·' && field[I3 + 1][J3 - 1] == '·' && field[I4 + 2][J4] == '·')
+						if (field[I1 - 1][J1 + 1] == 'Â·' && field[I3 + 1][J3 - 1] == 'Â·' && field[I4 + 2][J4] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1408,12 +1408,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 					{
 					case 1:
 					{
-						if (field[I1 + 1][J1 + 1] == '·' && field[I3 - 1][J3 - 1] == '·' && field[I4 - 2][J4] == '·')
+						if (field[I1 + 1][J1 + 1] == 'Â·' && field[I3 - 1][J3 - 1] == 'Â·' && field[I4 - 2][J4] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1444,12 +1444,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 
 					case 2:
 					{
-						if (field[I1 + 1][J1 - 1] == '·' && field[I3 - 1][J3 + 1] == '·' && field[I4][J4 + 2] == '·')
+						if (field[I1 + 1][J1 - 1] == 'Â·' && field[I3 - 1][J3 + 1] == 'Â·' && field[I4][J4 + 2] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1480,12 +1480,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 
 					case 3:
 					{
-						if (field[I1 - 1][J1 - 1] == '·' && field[I3 + 1][J3 + 1] == '·' && field[I4 + 2][J4] == '·')
+						if (field[I1 - 1][J1 - 1] == 'Â·' && field[I3 + 1][J3 + 1] == 'Â·' && field[I4 + 2][J4] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1516,12 +1516,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 
 					case 4:
 					{
-						if (field[I1 - 1][J1 + 1] == '·' && field[I3 + 1][J3 - 1] == '·' && field[I4][J4 - 2] == '·')
+						if (field[I1 - 1][J1 + 1] == 'Â·' && field[I3 + 1][J3 - 1] == 'Â·' && field[I4][J4 - 2] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1561,12 +1561,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 					{
 					case 1:
 					{
-						if (field[I1 + 1][J1 - 1] == '·' && field[I3 - 1][J3 + 1] == '·' && field[I4 - 2][J4 + 2] == '·')
+						if (field[I1 + 1][J1 - 1] == 'Â·' && field[I3 - 1][J3 + 1] == 'Â·' && field[I4 - 2][J4 + 2] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1598,12 +1598,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 
 					case 2:
 					{
-						if (field[I1 - 1][J1 + 1] == '·' && field[I3 + 1][J3 - 1] == '·' && field[I4 + 2][J4 - 2] == '·')
+						if (field[I1 - 1][J1 + 1] == 'Â·' && field[I3 + 1][J3 - 1] == 'Â·' && field[I4 + 2][J4 - 2] == 'Â·')
 						{
-							field[I1][J1] = '·';
-							field[I2][J2] = '·';
-							field[I3][J3] = '·';
-							field[I4][J4] = '·';
+							field[I1][J1] = 'Â·';
+							field[I2][J2] = 'Â·';
+							field[I3][J3] = 'Â·';
+							field[I4][J4] = 'Â·';
 
 							ColoursData[I1][J1] = 1;
 							ColoursData[I2][J2] = 1;
@@ -1660,7 +1660,7 @@ int StringsBurning(char** field, int& sleep, int& points, int& levelpoints, int&
 		bool BurnString{ true };
 		for (int j = 0; j < 10; j++)
 		{
-			if (field[i][j] == '·')
+			if (field[i][j] == 'Â·')
 			{
 				BurnString = false;
 				break;
@@ -1676,7 +1676,7 @@ int StringsBurning(char** field, int& sleep, int& points, int& levelpoints, int&
 					field[l][k] = field[l - 1][k];
 					ColoursData[l][k] = ColoursData[l - 1][k];
 				}
-				field[0][k] = '·';
+				field[0][k] = 'Â·';
 				ColoursData[0][k] = 1;
 
 				Sleep(10);
