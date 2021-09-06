@@ -132,7 +132,7 @@ void Menu()
 		if (Enter == 32)
 		{
 			system("cls");
-			cout << "\n\n\n\n\n\n\t\t\t\t\t\t      �          �          �          �          �          �          �          �          �          �";
+			cout << "\n\n\n\n\n\n\t\t\t\t\t\t      ыв�          �          �          �          �          �          �          �          �          �";
 			cout << "\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\tW ( � ) � ����� ������� �� ������ ��������� ������\n\t\t\t\t\t\t\t\t\t\t*[ �������� � ������ ������� ��������� ������ ]\n\n\n\n\n\n"; Sleep(200);
 			cout << "\t\t\t\t\t\t\t\t\tA ( � ) � �������� ������\n\n\n\n\n\n"; Sleep(200);
 			cout << "\t\t\t\t\t\t\t\t\tS ( � ) � �������� ����\n\n\n\n\n\n"; Sleep(200);
