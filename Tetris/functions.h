@@ -26,9 +26,9 @@ void MainMenu()
 	cout << "\t\t\t\t\t\t\t|                                                                                             |\n"; Sleep(200);
 	cout << "\t\t\t\t\t\t\t|                                                                                             |\n"; Sleep(200);
 	cout << "\t\t\t\t\t\t\t|_____________________________________________________________________________________________|\n\n\n\n\n\n\n";
-	cout << "\t\t\t\t\t\t\t\t\t     Í à æ ì è ò å   E N T E R ,   ÷ ò î á û   í à ÷ à ò ü .";
-	cout << "\n\n\n\n\t\t\t\t\t\t\t     Í à æ ì è ò å   Ï Ð Î Á Å Ë ,   ÷ ò î á û   ï î ñ ì î ò ð å ò ü   ó ï ð à â ë å í è å .";
-	cout << "\n\n\n\n\t\t\t\t\t\t\t\t\t      Í à æ ì è ò å   E S C ,   ÷ ò î á û   â û é ò è .\n";
+	cout << "\t\t\t\t\t\t\t\t\t     Ð Ð° Ð¶ Ð¼ Ð¸ Ñ‚ Ðµ   E N T E R ,   Ñ‡ Ñ‚ Ð¾ Ð± Ñ‹   Ð½ Ð° Ñ‡ Ð° Ñ‚ ÑŒ .";
+	cout << "\n\n\n\n\t\t\t\t\t\t\t     Ð Ð° Ð¶ Ð¼ Ð¸ Ñ‚ Ðµ   ÐŸ Ð  Ðž Ð‘ Ð• Ð› ,   Ñ‡ Ñ‚ Ð¾ Ð± Ñ‹   Ð¿ Ð¾ Ñ Ð¼ Ð¾ Ñ‚ Ñ€ Ðµ Ñ‚ ÑŒ   Ñƒ Ð¿ Ñ€ Ð° Ð² Ð» Ðµ Ð½ Ð¸ Ðµ .";
+	cout << "\n\n\n\n\t\t\t\t\t\t\t\t\t      Ð Ð° Ð¶ Ð¼ Ð¸ Ñ‚ Ðµ   E S C ,   Ñ‡ Ñ‚ Ð¾ Ð± Ñ‹   Ð² Ñ‹ Ð¹ Ñ‚ Ð¸ .\n";
 }
 
 void Menu()
@@ -49,20 +49,20 @@ void Menu()
 		if (Enter == 27)
 		{
 			system("cls");
-			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\tÄ Î   Í Î Â Î É   Â Ñ Ò Ð Å × È   Â   È Ã Ð Å !\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\tÐ” Ðž   Ð Ðž Ð’ Ðž Ð™   Ð’ Ð¡ Ð¢ Ð  Ð• Ð§ Ð˜   Ð’   Ð˜ Ð“ Ð  Ð• !\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
 			exit(0);
 		}
 
 		if (Enter == 32)
 		{
 			system("cls");
-			cout << "\n\n\n\n\n\n\t\t\t\t\t\t      Ó          Ï          Ð          À          Â          Ë          Å          Í          È          Å";
-			cout << "\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\tW ( Ö ) — Ñìåíà òåêóùåé íà äðóãóþ ñëó÷àéíóþ ôèãóðó\n\t\t\t\t\t\t\t\t\t\t*[ ðàáîòàåò â ïåðâûå ñåêóíäû ïîÿâëåíèÿ ôèãóðû ]\n\n\n\n\n\n"; Sleep(200);
-			cout << "\t\t\t\t\t\t\t\t\tA ( Ô ) — Äâèæåíèå íàëåâî\n\n\n\n\n\n"; Sleep(200);
-			cout << "\t\t\t\t\t\t\t\t\tS ( Û ) — Äâèæåíèå âíèç\n\n\n\n\n\n"; Sleep(200);
-			cout << "\t\t\t\t\t\t\t\t\tD ( Â ) — Äâèæåíèå íàïðàâî\n\n\n\n\n\n"; Sleep(200);
-			cout << "\t\t\t\t\t\t\t\t\tE ( Ó ) — Ïåðåâîðîò ôèãóðû\n\n\n\n\n\n\n\n\n"; Sleep(200);
-			cout << "\t\t\t\t\t\t\t\tÍ à æ ì è ò å   Ï Ð Î Á Å Ë ,   ÷ ò î á û   â å ð í ó ò ü ñ ÿ   â   ì å í þ\n";
+			cout << "\n\n\n\n\n\n\t\t\t\t\t\t      Ð£          ÐŸ          Ð           Ð          Ð’          Ð›          Ð•          Ð          Ð˜          Ð•";
+			cout << "\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\tW ( Ð¦ ) â€” Ð¡Ð¼ÐµÐ½Ð° Ñ‚ÐµÐºÑƒÑ‰ÐµÐ¹ Ð½Ð° Ð´Ñ€ÑƒÐ³ÑƒÑŽ ÑÐ»ÑƒÑ‡Ð°Ð¹Ð½ÑƒÑŽ Ñ„Ð¸Ð³ÑƒÑ€Ñƒ\n\t\t\t\t\t\t\t\t\t\t*[ Ñ€Ð°Ð±Ð¾Ñ‚Ð°ÐµÑ‚ Ð² Ð¿ÐµÑ€Ð²Ñ‹Ðµ ÑÐµÐºÑƒÐ½Ð´Ñ‹ Ð¿Ð¾ÑÐ²Ð»ÐµÐ½Ð¸Ñ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹ ]\n\n\n\n\n\n"; Sleep(200);
+			cout << "\t\t\t\t\t\t\t\t\tA ( Ð¤ ) â€” Ð”Ð²Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð½Ð°Ð»ÐµÐ²Ð¾\n\n\n\n\n\n"; Sleep(200);
+			cout << "\t\t\t\t\t\t\t\t\tS ( Ð« ) â€” Ð”Ð²Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð²Ð½Ð¸Ð·\n\n\n\n\n\n"; Sleep(200);
+			cout << "\t\t\t\t\t\t\t\t\tD ( Ð’ ) â€” Ð”Ð²Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð½Ð°Ð¿Ñ€Ð°Ð²Ð¾\n\n\n\n\n\n"; Sleep(200);
+			cout << "\t\t\t\t\t\t\t\t\tE ( Ð£ ) â€” ÐŸÐµÑ€ÐµÐ²Ð¾Ñ€Ð¾Ñ‚ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹\n\n\n\n\n\n\n\n\n"; Sleep(200);
+			cout << "\t\t\t\t\t\t\t\tÐ Ð° Ð¶ Ð¼ Ð¸ Ñ‚ Ðµ   ÐŸ Ð  Ðž Ð‘ Ð• Ð› ,   Ñ‡ Ñ‚ Ð¾ Ð± Ñ‹   Ð² Ðµ Ñ€ Ð½ Ñƒ Ñ‚ ÑŒ Ñ Ñ   Ð²   Ð¼ Ðµ Ð½ ÑŽ\n";
 
 			char Space = '.';
 			while (Space != 32)
@@ -81,13 +81,13 @@ void GameOver(int level, int points, int BurnedStrings)
 	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t    G  A  M  E     O  V  E  R  !\n\n\n\n\n\n\n\n\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t_________________________________________________\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t|                       |                       |\n";
-	cout << "\t\t\t\t\t\t\t\t\t\t|        Óðîâåíü        |                       |\n";
+	cout << "\t\t\t\t\t\t\t\t\t\t|        Ð£Ñ€Ð¾Ð²ÐµÐ½ÑŒ        |                       |\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t|_______________________|_______________________|\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t|                       |                       |\n";
-	cout << "\t\t\t\t\t\t\t\t\t\t|         Áàëëû         |                       |\n";
+	cout << "\t\t\t\t\t\t\t\t\t\t|         Ð‘Ð°Ð»Ð»Ñ‹         |                       |\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t|_______________________|_______________________|\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t|                       |                       |\n";
-	cout << "\t\t\t\t\t\t\t\t\t\t|     Ñîææåíî ëèíèé     |                       |\n";
+	cout << "\t\t\t\t\t\t\t\t\t\t|     Ð¡Ð¾Ð¶Ð¶ÐµÐ½Ð¾ Ð»Ð¸Ð½Ð¸Ð¹     |                       |\n";
 	cout << "\t\t\t\t\t\t\t\t\t\t|_______________________|_______________________|";
 
 	HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -111,8 +111,7 @@ void GameOver(int level, int points, int BurnedStrings)
 	if (BurnedStrings >= 100) cursor.X = 115;
 	SetConsoleCursorPosition(h, cursor);
 	cout << BurnedStrings;
-
-	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t  Í à æ ì è ò å   E N T E R ,   ÷ ò î á û   â å ð í ó ò ü ñ ÿ   â   ì å í þ .\n";
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t  Ð Ð° Ð¶ Ð¼ Ð¸ Ñ‚ Ðµ   E N T E R ,   Ñ‡ Ñ‚ Ð¾ Ð± Ñ‹   Ð² Ðµ Ñ€ Ð½ Ñƒ Ñ‚ ÑŒ Ñ Ñ   Ð²   Ð¼ Ðµ Ð½ ÑŽ .\n";
 
 	char Continue = ' ';
 	while (Continue != 13)
@@ -156,7 +155,7 @@ void Fill(char** field, int** ColoursData)
 
 void Print(char** field, int** ColoursData, int level, int points)
 {
-	cout << "\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tÓ Ð Î Â Å Í Ü  " << level << "\tÎ × Ê È  " << points;
+	cout << "\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tÐ£ Ð  Ðž Ð’ Ð• Ð Ð¬  " << level << "\tÐž Ð§ Ðš Ð˜  " << points;
 	HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
 	cout << "\n\n\n\n\t\t\t\t\t\t\t\t\t\t   +-------------------------------------------+\n\n";
 	for (int i = 0; i < 20; i++)
@@ -830,9 +829,9 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 				system("cls");
 				system("color B4");
 				Sleep(100);
-				cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\tÕ Î Ò È Ò Å   Â Û É Ò È   È Ç   È Ã Ð Û ?\n\n\n\n";
+				cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\tÃ• ÃŽ Ã’ Ãˆ Ã’ Ã…   Ã‚ Ã› Ã‰ Ã’ Ãˆ   Ãˆ Ã‡   Ãˆ Ãƒ Ã Ã› ?\n\n\n\n";
 				Sleep(100);
-				cout << "\t\t\t\t\t\t    Å ñ ë è   Ä À ,  í à æ ì è ò å   E N T E R\t\tÅ ñ ë è   Í Å Ò ,  í à æ ì è ò å   E S C\n";
+				cout << "\t\t\t\t\t\t    Ã… Ã± Ã« Ã¨   Ã„ Ã€ ,  Ã­ Ã  Ã¦ Ã¬ Ã¨ Ã² Ã¥   E N T E R\t\tÃ… Ã± Ã« Ã¨   Ã Ã… Ã’ ,  Ã­ Ã  Ã¦ Ã¬ Ã¨ Ã² Ã¥   E S C\n";
 
 				char choice = ' ';
 				while (choice != 13 && choice != 27)
@@ -855,7 +854,7 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 				}
 			}
 
-			if (WASDE == 'w' && I1 < 2 && swap == 1 || WASDE == 'W' && I1 < 2 && swap == 1 || WASDE == 'ö' && I1 < 2 && swap == 1 || WASDE == 'Ö' && I1 < 2 && swap == 1 || WASDE == 'w' && I2 < 2 && swap == 1 || WASDE == 'W' && I2 < 2 && swap == 1 || WASDE == 'ö' && I2 < 2 && swap == 1 || WASDE == 'Ö' && I2 < 2 && swap == 1 || WASDE == 'w' && I3 < 2 && swap == 1 || WASDE == 'W' && I3 < 2 && swap == 1 || WASDE == 'ö' && I3 < 2 && swap == 1 || WASDE == 'Ö' && I3 < 2 && swap == 1 || WASDE == 'w' && I4 < 2 && swap == 1 || WASDE == 'W' && I4 < 2 && swap == 1 || WASDE == 'ö' && I4 < 2 && swap == 1 || WASDE == 'Ö' && I4 < 2 && swap == 1)
+			if (WASDE == 'w' && I1 < 2 && swap == 1 || WASDE == 'W' && I1 < 2 && swap == 1 || WASDE == 'Ã¶' && I1 < 2 && swap == 1 || WASDE == 'Ã–' && I1 < 2 && swap == 1 || WASDE == 'w' && I2 < 2 && swap == 1 || WASDE == 'W' && I2 < 2 && swap == 1 || WASDE == 'Ã¶' && I2 < 2 && swap == 1 || WASDE == 'Ã–' && I2 < 2 && swap == 1 || WASDE == 'w' && I3 < 2 && swap == 1 || WASDE == 'W' && I3 < 2 && swap == 1 || WASDE == 'Ã¶' && I3 < 2 && swap == 1 || WASDE == 'Ã–' && I3 < 2 && swap == 1 || WASDE == 'w' && I4 < 2 && swap == 1 || WASDE == 'W' && I4 < 2 && swap == 1 || WASDE == 'Ã¶' && I4 < 2 && swap == 1 || WASDE == 'Ã–' && I4 < 2 && swap == 1)
 			{
 				field[I1][J1] = '*';
 				field[I2][J2] = '*';
@@ -877,7 +876,7 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 				--swap;
 			}
 
-			if (WASDE == 'a' || WASDE == 'A' || WASDE == 'ô' || WASDE == 'Ô')
+			if (WASDE == 'a' || WASDE == 'A' || WASDE == 'Ã´' || WASDE == 'Ã”')
 			{
 				bool BREAK{ false };
 				CheckLeft(field, I1, J1, I2, J2, I3, J3, I4, J4, Rand, pos, BREAK);
@@ -887,12 +886,12 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 				}
 			}
 
-			if (WASDE == 's' || WASDE == 'S' || WASDE == 'û' || WASDE == 'Û')
+			if (WASDE == 's' || WASDE == 'S' || WASDE == 'Ã»' || WASDE == 'Ã›')
 			{
 				NoSleep = true;
 			}
 
-			if (WASDE == 'd' || WASDE == 'D' || WASDE == 'â' || WASDE == 'Â')
+			if (WASDE == 'd' || WASDE == 'D' || WASDE == 'Ã¢' || WASDE == 'Ã‚')
 			{
 				bool BREAK{ false };
 				CheckRight(field, I1, J1, I2, J2, I3, J3, I4, J4, Rand, pos, BREAK);
@@ -902,7 +901,7 @@ int WASDE(char** field, int& I1, int& J1, int& I2, int& J2, int& I3, int& J3, in
 				}
 			}
 
-			if (WASDE == 'e' || WASDE == 'E' || WASDE == 'ó' || WASDE == 'Ó')
+			if (WASDE == 'e' || WASDE == 'E' || WASDE == 'Ã³' || WASDE == 'Ã“')
 			{
 				switch (Rand)
 				{
