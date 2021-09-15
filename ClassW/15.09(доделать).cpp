@@ -25,6 +25,8 @@ struct Person
 
 int main()
 {
+	system("chcp 1251"); // русский язык
+	system("cls");
 	const int N = 5;
 	Person people[N];
 	for (int i = 0; i < N; i++) {
