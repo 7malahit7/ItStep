@@ -3,19 +3,19 @@
 
 using namespace std;
 
-struct Month
+struct Month // РјРµСЃСЏС† - Рє-РІРѕ РґРЅРµР№
 {
 	int MonNum;
 	int DayAm;
 };
-struct Date
+struct Date // 
 {
 	int year;
 	int Month;
 	int day;
 };
 
-struct Person
+struct Person // РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‡РµР»РѕРІРµРєРµ
 {
 	char name[25];
 	char surname[50];
@@ -23,7 +23,7 @@ struct Person
 	Date Birthday;
 	bool accepted;
 };
-struct CurDate
+struct CurDate // С‚РµРєСѓС‰Р°СЏ РґР°С‚Р°
 {
 	int year;
 	int month;
@@ -34,10 +34,10 @@ struct CurDate
 
 int main()
 {
-	system("chcp 1251"); // русский язык
+	system("chcp 1251"); // СЂСѓСЃСЃРєРёР№ СЏР·С‹Рє
 	system("cls");
-	const int N = 3; // число избирателей
-	int n{ 3 }; // число выводимых избирателей
+	const int N = 3; // С‡РёСЃР»Рѕ РёР·Р±РёСЂР°С‚РµР»РµР№
+	int n{ 3 }; // С‡РёСЃР»Рѕ РІС‹РІРѕРґРёРјС‹С… РёР·Р±РёСЂР°С‚РµР»РµР№
 	
 	Month *month = new Month[13]; 
 	month[1] = { 1, 31 };
@@ -58,41 +58,41 @@ int main()
 	Person* people = new Person[N];
 	CurDate cd;
 	cout << "\n\n\n\n\n";
-	cout << "\t\t\t\tВведите текущий год: "; cin >> cd.year; 
+	cout << "\t\t\t\tР’РІРµРґРёС‚Рµ С‚РµРєСѓС‰РёР№ РіРѕРґ: "; cin >> cd.year; 
 	
-	if (cd.year % 4 == 0 || cd.year % 100 == 0 && cd.year % 400) // проверка на високосный год
+	if (cd.year % 4 == 0 || cd.year % 100 == 0 && cd.year % 400) // РїСЂРѕРІРµСЂРєР° РЅР° РІРёСЃРѕРєРѕСЃРЅС‹Р№ РіРѕРґ
 		month[2] = { 2, 29 };
 	else
 		month[2] = { 2, 28 };
 
 
 
-	cout << "\t\t\t\tВведите текущий номер месяца: ";do {cin >> cd.month; if (cd.month > 12) cout << "\nМесяц указан неверно, повторите попытку ввода:  ";
+	cout << "\t\t\t\tР’РІРµРґРёС‚Рµ С‚РµРєСѓС‰РёР№ РЅРѕРјРµСЂ РјРµСЃСЏС†Р°: ";do {cin >> cd.month; if (cd.month > 12) cout << "\nРњРµСЃСЏС† СѓРєР°Р·Р°РЅ РЅРµРІРµСЂРЅРѕ, РїРѕРІС‚РѕСЂРёС‚Рµ РїРѕРїС‹С‚РєСѓ РІРІРѕРґР°:  ";
 	} while (cd.month > 12);
-	cout << "\t\t\t\tВведите текущий день: ";do{ cin >> cd.day; if (cd.day > month[cd.month].DayAm) cout << "\nДень указан неверно, повторите попытку ввода:  ";
+	cout << "\t\t\t\tР’РІРµРґРёС‚Рµ С‚РµРєСѓС‰РёР№ РґРµРЅСЊ: ";do{ cin >> cd.day; if (cd.day > month[cd.month].DayAm) cout << "\nР”РµРЅСЊ СѓРєР°Р·Р°РЅ РЅРµРІРµСЂРЅРѕ, РїРѕРІС‚РѕСЂРёС‚Рµ РїРѕРїС‹С‚РєСѓ РІРІРѕРґР°:  ";
 	} while (cd.day > month[cd.month].DayAm);
 	Sleep(2500);
 	system("cls");
 
 	for (int i = 0; i < N; i++) {
 		cout << "\n\n\n\n\n";
-		cout << "\t\t\t\t~~~~~~~~~~Человек N" << i + 1 << "~~~~~~~~~~\n";
-		cout << "\t\t\t\tВведите имя "; cin >> people[i].name;
-		cout << "\t\t\t\tВведите фамилию: "; cin >> people[i].surname;
-		cout << "\t\t\t\tВведите отчество: "; cin >> people[i].patronymic;
-		cout << "\t\t\t\t\t~~~Дата рождения~~~\n";
-		cout << "\t\t\t\tВведите год: "; do { cin >> people[i].Birthday.year; 
-		if (people[i].Birthday.year > cd.year) cout << "\nГод указан неверно, повторите попытку ввода:  "; } while (people[i].Birthday.year > cd.year);//проверка на то, что указаный год меньше текущего
-		cout << "\t\t\t\tВведите месяц: "; do { cin >> people[i].Birthday.Month;
-		if (people[i].Birthday.Month > 12) cout << "\nМесяц указан неверно, повторите попытку ввода:  "; } while (people[i].Birthday.Month > 12);
-		cout << "\t\t\t\tВведите день "; do { cin >> people[i].Birthday.day ;
-		if (people[i].Birthday.day > month[people[i].Birthday.Month].DayAm) cout << "\nДень указан неверно, повторите попытку ввода:  ";} while (people[i].Birthday.day > month[people[i].Birthday.Month].DayAm);
+		cout << "\t\t\t\t~~~~~~~~~~Р§РµР»РѕРІРµРє N" << i + 1 << "~~~~~~~~~~\n";
+		cout << "\t\t\t\tР’РІРµРґРёС‚Рµ РёРјСЏ "; cin >> people[i].name;
+		cout << "\t\t\t\tР’РІРµРґРёС‚Рµ С„Р°РјРёР»РёСЋ: "; cin >> people[i].surname;
+		cout << "\t\t\t\tР’РІРµРґРёС‚Рµ РѕС‚С‡РµСЃС‚РІРѕ: "; cin >> people[i].patronymic;
+		cout << "\t\t\t\t\t~~~Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ~~~\n";
+		cout << "\t\t\t\tР’РІРµРґРёС‚Рµ РіРѕРґ: "; do { cin >> people[i].Birthday.year; 
+		if (people[i].Birthday.year > cd.year) cout << "\nР“РѕРґ СѓРєР°Р·Р°РЅ РЅРµРІРµСЂРЅРѕ, РїРѕРІС‚РѕСЂРёС‚Рµ РїРѕРїС‹С‚РєСѓ РІРІРѕРґР°:  "; } while (people[i].Birthday.year > cd.year);//РїСЂРѕРІРµСЂРєР° РЅР° С‚Рѕ, С‡С‚Рѕ СѓРєР°Р·Р°РЅС‹Р№ РіРѕРґ РјРµРЅСЊС€Рµ С‚РµРєСѓС‰РµРіРѕ
+		cout << "\t\t\t\tР’РІРµРґРёС‚Рµ РјРµСЃСЏС†: "; do { cin >> people[i].Birthday.Month;
+		if (people[i].Birthday.Month > 12) cout << "\nРњРµСЃСЏС† СѓРєР°Р·Р°РЅ РЅРµРІРµСЂРЅРѕ, РїРѕРІС‚РѕСЂРёС‚Рµ РїРѕРїС‹С‚РєСѓ РІРІРѕРґР°:  "; } while (people[i].Birthday.Month > 12);
+		cout << "\t\t\t\tР’РІРµРґРёС‚Рµ РґРµРЅСЊ "; do { cin >> people[i].Birthday.day ;
+		if (people[i].Birthday.day > month[people[i].Birthday.Month].DayAm) cout << "\nР”РµРЅСЊ СѓРєР°Р·Р°РЅ РЅРµРІРµСЂРЅРѕ, РїРѕРІС‚РѕСЂРёС‚Рµ РїРѕРїС‹С‚РєСѓ РІРІРѕРґР°:  ";} while (people[i].Birthday.day > month[people[i].Birthday.Month].DayAm);
 		
 		people[i].accepted = 1;
 		Sleep(2500);
 		system("cls");
 	}
-		for (int i = 0; i < N; i++)
+		for (int i = 0; i < N; i++) // РїСЂРѕРІРµСЂРєР° РЅР° СЃРѕРІРµСЂС€РµРЅРЅРѕР»РµС‚РёРµ
 			if (people[i].Birthday.year >= cd.year-18)
 			{
 				if (people[i].Birthday.year == cd.year-18)
@@ -123,7 +123,7 @@ int main()
 	for (int i = 0; i < n; i++)
 	{
 
-		if (people[i].accepted == 0) // удаление человека если он не подходит по возрасту
+		if (people[i].accepted == 0) // СѓРґР°Р»РµРЅРёРµ С‡РµР»РѕРІРµРєР° РµСЃР»Рё РѕРЅ РЅРµ РїРѕРґС…РѕРґРёС‚ РїРѕ РІРѕР·СЂР°СЃС‚Сѓ
 		{
 			Person* people2 = new Person[N-1];
 
@@ -136,14 +136,14 @@ int main()
 
 
 		cout << "\n\n\n\n\n";
-		cout << "\t\t\t\t~~~~~~~~~~Человек N" << i + 1 << "~~~~~~~~~~\n";
-		cout << "\t\t\t\tИмя: " << people[i].name << endl;
-		cout << "\t\t\t\tФамилия: " << people[i].surname << endl;
-		cout << "\t\t\t\tОтчество: " << people[i].patronymic << endl;
-		cout << "\t\t\t\t\t~~~Дата рождения~~~\n";
-		cout << "\n\t\t\t\tДень: " << people[i].Birthday.day << endl;
-		cout << "\t\t\t\tМесяц: " << people[i].Birthday.Month << endl;
-		cout << "\t\t\t\tГод: " << people[i].Birthday.year << endl << endl;
+		cout << "\t\t\t\t~~~~~~~~~~Р§РµР»РѕРІРµРє N" << i + 1 << "~~~~~~~~~~\n";
+		cout << "\t\t\t\tРРјСЏ: " << people[i].name << endl;
+		cout << "\t\t\t\tР¤Р°РјРёР»РёСЏ: " << people[i].surname << endl;
+		cout << "\t\t\t\tРћС‚С‡РµСЃС‚РІРѕ: " << people[i].patronymic << endl;
+		cout << "\t\t\t\t\t~~~Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ~~~\n";
+		cout << "\n\t\t\t\tР”РµРЅСЊ: " << people[i].Birthday.day << endl;
+		cout << "\t\t\t\tРњРµСЃСЏС†: " << people[i].Birthday.Month << endl;
+		cout << "\t\t\t\tР“РѕРґ: " << people[i].Birthday.year << endl << endl;
 
 		Sleep(2500);
 		system("cls");
