@@ -39,7 +39,7 @@ int main()
 	const int N = 3; // число избирателей
 	int n{ 3 }; // число выводимых избирателей
 	
-	Month *month = new Month[13]; 
+	Month *month = new Month[12]; 
 	month[1] = { 1, 31 };
 	month[3] = { 3, 31 };
 	month[4] = { 4, 30 };
