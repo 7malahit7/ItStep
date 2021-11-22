@@ -76,7 +76,16 @@ public:
 	{
 		return fr1.numerator * fr2.denominator > fr2.numerator * fr1.denominator;
 	}
-
+	static Fraction inc(const Fraction& fr1)
+	{
+		Fraction inc(1, fr1.denominator);
+		return Add(inc, fr1);
+	}
+	static Fraction dec(const Fraction& fr1)
+	{
+		Fraction dec(1, fr1.denominator);
+		return Sub(fr1, dec);
+	}
 
 
 	friend Fraction operator+(const Fraction& fr1, const Fraction& fr2)
@@ -132,7 +141,14 @@ public:
 	{
 		return Mult(fr1, fr1);
 	}
-
+	friend Fraction operator++(const Fraction fr1)
+	{
+		return inc(fr1);
+	}
+	friend Fraction operator--(const Fraction fr1)
+	{
+		return dec(fr1);
+	}
 	friend ostream& operator<<(ostream& output, const Fraction& fr)
 	{
 		output << "[" << fr.numerator << "/" << fr.denominator << "]";
@@ -175,6 +191,8 @@ int main()
 	if (f1 <= f2)
 		cout << f1 << " <= " << f2 << endl;
 	cout << "Input numerator and denominator: "; cin >> f3; cout << "You entered: " << f3;
+	cout << f3 << "++  = " << ++f3 << endl;
+	cout << f3 << "--  = " << --f3 << endl;
 	return 0;
 }
 
