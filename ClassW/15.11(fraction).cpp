@@ -85,10 +85,6 @@ public:
 	{
 		return fr1.numerator * fr2.denominator > fr2.numerator * fr1.denominator;
 	}
-	//static Fraction sqrt(const Fraction& fr1)
-	//{
-	//	return Fraction(fr1.numerator / fr1.numerator, fr1.denominator / fr1.denominator);
-	//}
 
 
 
@@ -191,4 +187,4 @@ int main()
 	return 0;
 }
 
-// перегрузить cin f++ ++f f-- --f корень 
+
