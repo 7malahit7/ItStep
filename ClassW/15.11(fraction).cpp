@@ -190,7 +190,7 @@ int main()
 		cout << f2 << " <= " << f2 << endl;
 	if (f1 <= f2)
 		cout << f1 << " <= " << f2 << endl;
-	cout << "Input numerator and denominator: "; cin >> f3; cout << "You entered: " << f3;
+	cout << "Input numerator and denominator: "; cin >> f3; cout << "You entered: " << f3 << endl;
 	cout << f3 << "++  = " << ++f3 << endl;
 	cout << f3 << "--  = " << --f3 << endl;
 	return 0;
