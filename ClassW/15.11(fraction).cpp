@@ -172,6 +172,8 @@ int main()
 		cout << f2 << " >= " << f2 << endl;
 	if (f2 <= f2)
 		cout << f2 << " <= " << f2 << endl;
+	if (f1 <= f2)
+		cout << f1 << " <= " << f2 << endl;
 	cout << "Input numerator and denominator: "; cin >> f3; cout << "You entered: " << f3;
 	return 0;
 }
