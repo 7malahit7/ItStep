@@ -174,14 +174,14 @@ int main()
 	cout << f1 << " * " << f2 << " = " << f2 * f1 << endl;
 	cout << f1 << " / " << f2 << " = " << f2 / f1 << endl;
 	cout << f1 << "^2 = " << *f1 << endl;
-	if (f1 != f2)
-		cout << f2 << "  = " << f2 << endl;
+	if (f2 == f2)
+		cout << f2 << " = " << f2 << endl;
 	if (f2 > f1)
 		cout << f2 << "  > " << f1 << endl;
 	if (f1 < f2)
 		cout << f1 << "  < " << f2 << endl;
-	cout << f1 << " != " << f2 << endl;
-	if (f2 == f2)
+	if(f1!=f2)
+		cout << f1 << " != " << f2 << endl;
 	if (f2 >= f1)
 		cout << f2 << " >= " << f1 << endl;
 	if (f2 >= f2)
