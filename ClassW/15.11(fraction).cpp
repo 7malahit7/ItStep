@@ -138,13 +138,21 @@ public:
 		output << "[" << fr.numerator << "/" << fr.denominator << "]";
 		return output;
 	}
+	friend istream& operator>>(istream& in, Fraction& fr)
+	{
+		in >> fr.numerator;
+		in >> fr.denominator;
 
+		return in;
+	}
 };
 
 int main()
 {
+
 	Fraction f1(1, 4);
 	Fraction f2(1, 2);
+	Fraction f3;
 	cout << f1 << " + " << f2 << " = " << f1 + f2 << endl;
 	cout << f1 << " - " << f2 << " = " << f2 - f1 << endl;
 	cout << f1 << " * " << f2 << " = " << f2 * f1 << endl;
@@ -164,6 +172,8 @@ int main()
 		cout << f2 << " >= " << f2 << endl;
 	if (f2 <= f2)
 		cout << f2 << " <= " << f2 << endl;
+	cout << "Input numerator and denominator: "; cin >> f3; cout << "You entered: " << f3;
 	return 0;
 }
+
 
