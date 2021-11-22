@@ -170,7 +170,7 @@ int main()
 	Fraction f2(1, 2);
 	Fraction f3;
 	cout << f1 << " + " << f2 << " = " << f1 + f2 << endl;
-	cout << f1 << " - " << f2 << " = " << f2 - f1 << endl;
+	cout << f2 << " - " << f1 << " = " << f2 - f1 << endl;
 	cout << f1 << " * " << f2 << " = " << f2 * f1 << endl;
 	cout << f1 << " / " << f2 << " = " << f2 / f1 << endl;
 	cout << f1 << "^2 = " << *f1 << endl;
