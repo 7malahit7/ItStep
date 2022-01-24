@@ -116,7 +116,7 @@ public:
 		}
 		char buff[50];
 		int a;
-		while(f)
+		while(f.good())
 		{
 			f >> buff;
 			RussianMessage("\nИмя\n");
