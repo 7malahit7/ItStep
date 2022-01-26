@@ -226,3 +226,25 @@ using namespace std;
 //	A.display();
 //}
 
+class Student
+{
+protected:
+	char name[25];
+	char surname[25];
+	char patronomic[25];
+	int day;
+	int month;
+	int year;
+};
+
+class Aspirant : public Student
+{
+
+};
+
+void main()
+{
+
+
+
+}
